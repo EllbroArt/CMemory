@@ -3962,7 +3962,6 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 		{Friends: 0},
 		{NextLevel: 0},
 		{TiledBackground: 0},
-		{BackText: 0},
 		{VKBridge: 0},
 		{Audio: 0},
 		{CARDSMAXHEIGHT: 0},
@@ -4087,7 +4086,6 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 			return () => (f0() / 2);
 		},
 		() => 2,
-		() => 36,
 		() => 50,
 		p => {
 			const n0 = p._GetNode(0);
