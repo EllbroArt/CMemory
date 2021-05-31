@@ -4249,7 +4249,10 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 			const v0 = p._GetNode(0).GetVar();
 			return () => and("Level", v0.GetValue());
 		},
-		() => "Тренирую память!",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => and("Тренирую память! Уже на уровне - ", v0.GetValue());
+		},
 		() => "https://vk.com/app7863284",
 		() => -15,
 		() => 100,
