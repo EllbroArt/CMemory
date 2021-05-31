@@ -4086,6 +4086,7 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 			return () => (f0() / 2);
 		},
 		() => 2,
+		() => 100,
 		() => 50,
 		p => {
 			const n0 = p._GetNode(0);
@@ -4253,7 +4254,6 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 		},
 		() => "https://vk.com/app7863284",
 		() => -15,
-		() => 100,
 		p => {
 			const n0 = p._GetNode(0);
 			return () => and("Level", n0.ExpInstVar());
