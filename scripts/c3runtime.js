@@ -3964,6 +3964,7 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 		{TiledBackground: 0},
 		{VKBridge: 0},
 		{Audio: 0},
+		{Sprite2: 0},
 		{CARDSMAXHEIGHT: 0},
 		{ActiveCards: 0},
 		{ReadyCards: 0},
